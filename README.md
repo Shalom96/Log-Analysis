@@ -33,27 +33,6 @@ The exercises simulate tasks commonly performed by Security Operations Center (S
 - less
 - nano
   
-## Repository Structure
-Web-Server-Log-Analysis/
-│
-├── README.md
-├── Exercise-1/
-│   ├── access-1.log
-│   ├── Report.docx
-│   └── screenshots/
-│
-├── Exercise-2/
-│   ├── apache_logs
-│   ├── Report.docx
-│   └── screenshots/
-│
-├── Exercise-3/
-│   ├── access-2.log
-│   ├── Report.docx
-│   └── screenshots/
-│
-└── images/
-
 ## Exercises
 Exercise 1 – Access-1.log
 
