@@ -66,6 +66,7 @@ Count GET requests
 
 grep -c "GET" access-1.log
 
+
 Count unique IP addresses
 
 awk '{print $1}' access-2.log | sort | uniq | wc -l
