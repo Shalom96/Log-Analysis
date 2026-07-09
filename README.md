@@ -106,5 +106,5 @@ Shalom Odori
 
 Cybersecurity Intern | SOC Analyst
 
-License
+## License
 This project is published for educational and portfolio purposes.
