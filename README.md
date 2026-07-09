@@ -63,18 +63,23 @@ Exercise 1 – Access-1.log
 ## Sample Commands
 
 Count GET requests
+
 grep -c "GET" access-1.log
 
 Count unique IP addresses
+
 awk '{print $1}' access-2.log | sort | uniq | wc -l
 
 Find the most active IP address
+
 awk '{print $1}' access-2.log | sort | uniq -c | sort -nr
 
 Find the most requested URL
+
 awk '{print $7}' access-2.log | sort | uniq -c | sort -nr
 
 Count HTTP 200 responses
+
 awk '$9==200' access-2.log | wc -l
 
 ## Skills Demonstrated
